@@ -1,6 +1,6 @@
 import numpy as np
 from . import surface_point_cloud
-from .surface_point_cloud import BadMeshException
+from .surface_point_cloud import BadMeshException, create_from_scans, sample_from_mesh, create_from_mesh
 from .utils import scale_to_unit_cube, scale_to_unit_sphere, get_raster_points, check_voxels
 import trimesh
 
